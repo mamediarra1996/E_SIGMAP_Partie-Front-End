@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding-top: 1%;
+}
+
+.counts .content {
+  padding: 0;
+}
+
+.counts .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #222222;
+}
+
+.counts .content p {
+  margin-bottom: 0;
+}
+
+.counts .content .count-box {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.counts .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: #3498db;
+  float: left;
+  line-height: 0;
+}
+
+.counts .content .count-box span {
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: #222222;
+  margin-left: 50px;
+}
+
+.counts .content .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #484848;
+}
+
+.counts .content .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #484848;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.counts .content .count-box a:hover {
+  color: #6f6f6f;
+}
+
+  .counts img {
+    width: 1200px;
+    height: 500px;
+    padding: 0%;
+    
+  }
+  .nav1 {
+    padding: 0;
+    color: rgb(211, 212, 212);
+    background-color:rgb(3, 186, 203);
+    margin-top: -90px;
+    width: 100%;
+    height: 130px;
+    padding-right: 20px;
+    position: relative;
+    
+}
+#nav1 h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+ .contact-about h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f4ecec;
+  text-align: right;
+  margin-top: -50px;
+}
+
+.contact-about td {
+  background-color: rgb(5, 134, 146);
+  padding: 15px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 80%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f4ecec;
+  text-align:right;
+
+}
+
+.contact-about .social-links a {
+  font-size: 18px;
+  background: #fff;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  
+  
+}
+
+.contact-about  .social-links i {
+  font-size: 32px;
+color:rgb(5, 134, 146);
+  float: left;
+  line-height: 1;
+}
+.nav2 {
+  padding: 0;
+  font-size: 20px;
+  color: rgb(211, 212, 212);
+  background-color:rgb(246, 247, 247);
+  margin-top: 40px;
+  width: 100%;
+  height: 300px;
+  padding-right: 20px;
+  position: relative;
+  
+}
+
+.nav2 td{
+  color: #222222;
+}
+
+
+
+
+
+
