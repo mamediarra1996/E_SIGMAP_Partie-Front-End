@@ -1,0 +1,113 @@
+<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="col-xl-20 col-lg-20">
+		<img src="assets/img/senegal.png" width=90px alt="">
+	 </div>
+      <div class="logo">
+        <h1><a href="index.html">SIGMAP</a></h1>
+           </div>
+        </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="">ACCUEIL</a></li>
+          <li><a  routerLink="actualite">ACTUALITÉS</a></li>
+          <li class="dropdown"><a href="#"><span>CONSULTATIONS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"> PLAN DE PASSATION </a></li>
+              <li><a href="#"> AVIS GÉNÉRAUX </a></li>
+              <li><a href="#"> AVIS D'APPEL À CONCURRENCE </a></li>
+              <li><a href="#"> PROCÈS VERBAL D'OUVERTURE </a></li>
+              <li><a href="#"> PROCÈS VERBAL D'ATTRIBUTION PROVISOIRE </a></li>
+              <li><a href="#"> AVIS D'ATTRIBUTION DÉFINITIVE </a></li>
+              <li><a href="#"> BÉNÉFICIAIRES EFFECTIFS </a></li>
+              <li><a href="#"> JOURNAL DES MARCHÉS PUBLICS </a></li>
+              <li><a href="#"> CONTENTIEUX </a></li>
+              <li><a href="#"> LISTE ROUGE </a></li>
+            </ul>
+          </li>
+           <li class="dropdown"><a href="#"><span>OUTILS DE GESTION</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"> STATISTIQUES </a></li>
+              <li><a href="#"> COMPRENDRE LES MARCHÉS PUBLICS </a></li>
+              <li><a href="#"> LISTE DES DAO TYPES </a></li>
+              <li><a href="#"> CODE DES MARCHÉS 2017 </a></li>
+              <li><a href="#"> CODE DES MARCHÉS 2009 </a></li>
+              <li><a href="#"> CODE DES MARCHÉS 2020 </a></li>
+              <li><a href="#"> ESPACE LÉGISLATION </a></li>
+              <li><a href="#"> PROGRAMME DE FORMATION </a></li>
+              <li><a href="#"> RÉFÉRENTIEL DES PRIX </a></li>
+              <li><a href="#"> DÉNONCIATION ANONYMES </a></li>
+              <li><a href="#"> FAQ </a></li>
+            </ul>
+          </li>
+         <li class="dropdown"><a href="#"><span>ORGANES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"> ARMP </a></li>
+              <li><a href="#"> DNCMP </a></li>
+              <li><a href="#"> ORGANES DE PASSATION </a></li>
+            </ul>
+            </li>
+          <li class="dropdown"><a href="#"><span>RAPPORTS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"> RAPPORTS ARMP </a></li>
+              <li><a href="#"> RAPPORTS DNCMP </a></li>
+              <li><a href="#"> RAPPORTS D'AUDIT </a></li>
+            </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
+            <li><a class="nav-link scrollto" href="login">CONNEXION</a></li>
+            
+          </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+  </header>
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+                
+                    <h1>AUTHENTIFICATION ESPACE ABONNÉS OU ADMINISTRATEUR</h1>
+        <h5>Si vous êtes ici pour la première fois, c'est le moment de
+            <a class="txt2" href="#">
+                s'inscrire
+                <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+            </a>
+        </h5>     
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="assets/login/images/bg-01.jpg" alt="" width="1000px" height="180px">
+				</div>
+
+				<form class="login100-form validate-form">
+							<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="username" [(ngModel)]="username" id="username" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="password"  [(ngModel)]="password" id="password" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" type="submit" name="Login" id="go" value="Login" (click)="doLogin()">Login</button>
+					</div>
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a class="txt2" href="#">
+							Username / Password?
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<app-footer></app-footer>

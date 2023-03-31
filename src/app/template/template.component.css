@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# numero
+--------------------------------------------------------------*/
+  
+  .pricing h2 {
+    font-weight: 800;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #090909;
+  }
+  .pricing P {
+    font-size: 20px;
+
+  }
+  .pricing img {
+    width: 300px;
+    right: 300px;
+  }
+  
+  .pricing  h5 {
+    font-size: 42px;
+    color: #05a77c;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  .pricing .recommended {
+    border-color:  rgb(236, 248, 249);
+    width: 1100px;
+   
+  }
+
+
+  

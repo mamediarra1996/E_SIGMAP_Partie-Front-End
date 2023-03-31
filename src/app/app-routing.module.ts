@@ -4,6 +4,11 @@ import { AcceuilComponent } from './acceuil/acceuil.component';
 import { ActuConsulteComponent } from './actu-consulte/actu-consulte.component';
 import { ActualiteComponent } from './actualite/actualite.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { LoginUserComponent } from './login-user/login-user.component';
+
+
+
 
 const routes: Routes = [
   {
@@ -11,18 +16,25 @@ const routes: Routes = [
     component: AcceuilComponent
   },
   {
+    path:'home',
+    component: HomeComponent
+  },
+  {
     path:'actualite',
     component: ActualiteComponent
+    },
+    {
+      path:'actuConsulte',
+      component: ActuConsulteComponent
     },
     {
       path:'contact',
       component: ContactComponent
     },
     {
-      path:'actuConsulte',
-      component: ActuConsulteComponent
+      path:'login',
+      component: LoginUserComponent
     }
-
 ];
 
 @NgModule({

@@ -1,126 +1,68 @@
-<header id="header" class="fixed-top d-flex align-items-center">
-  <div class="container d-flex align-items-center justify-content-between">
-    <div class="col-xl-20 col-lg-20">
-            <img src="assets/img/senegal.png" width=90px alt="">
-          </div>
-    <div class="logo">
-      <h1><a href="index.html">SIGMAP</a></h1>
-         </div>
-      </div>
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link scrollto" href="">ACCUEIL</a></li>
-        <li><a  href="actualite">ACTUALITÉS</a></li>
-        <li class="dropdown"><a href="#"><span>CONSULTATIONS</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">PLAN DE PASSATION</a></li>
-            <li><a href="#">AVIS GÉNÉRAUX</a></li>
-            <li><a href="#">AVIS D'APPEL À CONCURRENCE</a></li>
-            <li><a href="#">PROCÈS VERBAL D'OUVERTURE</a></li>
-            <li><a href="#">PROCÈS VERBAL D'ATTRIBUTION PROVISOIRE</a></li>
-            <li><a href="#">AVIS D'ATTRIBUTION DÉFINITIVE </a></li>
-            <li><a href="#"> BÉNÉFICIAIRES EFFECTIFS</a></li>
-            <li><a href="#"> JOURNAL DES MARCHÉS PUBLICS</a></li>
-            <li><a href="#"> CONTENTIEUX</a></li>
-            <li><a href="#">LISTE ROUGE</a></li>
-          </ul>
-        </li>
-         <li class="dropdown"><a href="#"><span>OUTILS DE GESTION</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">STATISTIQUES</a></li>
-            <li><a href="#">COMPRENDRE LES MARCHÉS PUBLICS</a></li>
-            <li><a href="#">LISTE DES DAO TYPES</a></li>
-            <li><a href="#">CODE DES MARCHÉS 2017</a></li>
-            <li><a href="#">CODE DES MARCHÉS 2009</a></li>
-            <li><a href="#">CODE DES MARCHÉS 2020</a></li>
-            <li><a href="#"> ESPACE LÉGISLATION</a></li>
-            <li><a href="#"> PROGRAMME DE FORMATION</a></li>
-            <li><a href="#"> RÉFÉRENTIEL DES PRIX</a></li>
-            <li><a href="#">DÉNONCIATION ANONYMES</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </li>
-       <li class="dropdown"><a href="#"><span>ORGANES</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">ARMP</a></li>
-            <li><a href="#">DNCMP</a></li>
-            <li><a href="#">ORGANES DE PASSATION</a></li>
-          </ul>
-          </li>
-        <li class="dropdown"><a href="#"><span>RAPPORTS</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">RAPPORTS ARMP</a></li>
-            <li><a href="#">RAPPORTS DNCMP</a></li>
-            <li><a href="#">RAPPORTS D'AUDIT</a></li>
-          </ul>
-          </li>
-          <li><a class="nav-link scrollto" routerLink="contact">CONTACT</a></li>
-        </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav>
-  </header>
 
-  <section id="nav" class="nav">
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
     <div class="container">
-      <div class="row">
-          <h1>Toutes les contacts</h1>
-          <a href="#acceuil">acceuil > contact</a>
-          </div>
+  
+      <div class="section-title" data-aos="fade-up">
+        <h2>CONTACTEZ-NOUS</h2>
       </div>
-  </section>
-  <!doctype html>
-  <head>
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-about">
+            <h3>SIGMAP</h3>
+             <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
   
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="stylesheet">
-
-	</head>
-	<body>
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="table-wrap">
-						<table class="table">
-						  <thead class="thead-dark">
-						    <tr>
-						      <th>ID </th>
-						      <th>NOM</th>
-						      <th>PRENOM</th>
-                  <th>DATE-NIASS</th>
-                  <th>Email</th>
-						      <th>TEL</th>
-						      <th>&nbsp;</th>
-						    </tr>
-						  </thead>
-						  <tbody>
-						    <tr *ngFor="let contact of contacts">
-                  <td>{{contact.id}}</td>
-                  <td>{{contact.nom}}</td>
-                  <td>{{contact.prenom}}</td>
-                  <td>{{contact.dataNaissance}}</td>
-                  <td>{{contact.email}}</td>
-                  <td>{{contact.tel}}</td>
-						    </tr>
-              </tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</body>
-
-	<script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-
-  <app-footer></app-footer>
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="info">
+            <div>
+              <i class="ri-map-pin-line"></i>
+              <p>Point E Dakar Sénégal</p>
+            </div>
   
-
+            <div>
+              <i class="ri-mail-send-line"></i>
+              <p>ssi@ssi.sn</p>
+            </div>
+  
+            <div>
+              <i class="ri-phone-line"></i>
+              <p>33 865 111 50</p>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nom" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="tel" class="form-control" id="tel" placeholder="Telephone" required>
+              </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="object" id="object" placeholder="Object" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="text-center"><button type="submit">ENVOYEZ</button></div>
+          </form>
+        </div>
+  
+      </div>
+  
+    </div>
+  </section><!-- End Contact Section -->
+ 
+   

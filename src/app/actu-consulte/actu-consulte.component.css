@@ -72,7 +72,7 @@
   .nav1 {
     padding: 0;
     color: rgb(211, 212, 212);
-    background-color:rgb(3, 186, 203);
+    background-color:rgb(5, 134, 146);
     margin-top: -90px;
     width: 100%;
     height: 130px;
@@ -95,7 +95,6 @@
 }
 
 .contact-about td {
-  background-color: rgb(5, 134, 146);
   padding: 15px;
   position: absolute;
   transform: translate(-50%,-50%);

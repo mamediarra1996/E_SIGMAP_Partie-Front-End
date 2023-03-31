@@ -2,7 +2,7 @@
 .nav {
  padding: 20;
  color: rgb(5, 6, 6);
- background-color:rgb(8, 209, 228);
+ background-color:rgb(5, 134, 146);
 }
     .nav {
       margin-top: 80px;
@@ -22,42 +22,35 @@
     .nav1 {
         padding: 0;
         color: rgb(5, 6, 6);
-        background-color:rgb(226, 232, 232);
+        background-color:rgb(138, 224, 224);
         margin-top: 40px;
         width: 100%;
         position: fixed;
         
     }
-    #nav1 h2 {
+    #nav2 h2 {
       font-size: 30px;
       line-height: 24px;
       margin-bottom: 30px;
       font-weight: 600;
     }
-  
-    #nav .nav-img img {
-      width: 100%;
-      padding: auto;
+    #nav2 img { 
+      width: 600px;
+      height: 300px;
+      padding: 0%;
+    
     }
   
-    #nav .nav-img img {
-      width: 80%;
-    }
-  
-
-  
-
-      
 .btn-get-started {
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 10px 30px;
     border-radius: 50px;
     transition: 0.5s;
-    color: #050505;
-    border: 2px solid #050606;
+    color:rgb(5, 134, 146);
+    border: 2px solid rgb(5, 134, 146);
   }
   
