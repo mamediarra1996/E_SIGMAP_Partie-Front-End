@@ -61,14 +61,13 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
   </header>
-<body>
+<body class="login">
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-                
                     <h1>AUTHENTIFICATION ESPACE ABONNÉS OU ADMINISTRATEUR</h1>
         <h5>Si vous êtes ici pour la première fois, c'est le moment de
-            <a class="txt2" href="#">
+            <a class="txt2" href="register">
                 s'inscrire
                 <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
             </a>
@@ -76,10 +75,11 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="assets/login/images/bg-01.jpg" alt="" width="1000px" height="180px">
 				</div>
-
-				<form class="login100-form validate-form">
+				<form #loginform="ngForm" (ngSubmit)="loginUser()" class="login100-form validate-form">
+          <small class="text-danger">{{msg}}</small>
 							<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="username" [(ngModel)]="username" id="username" placeholder="Email">
+						<input class="input100" type="email" placeholder="Email" name="email" [(ngModel)]="register.email" required #email="ngModel"
+            [class.is-invalid]="email.invalid && email.touched">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -87,7 +87,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="password"  [(ngModel)]="password" id="password" placeholder="Password">
+						<input class="input100" type="password" placeholder="Password" name="password" [(ngModel)]="register.password" required #password="ngModel">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -95,7 +95,7 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" type="submit" name="Login" id="go" value="Login" (click)="doLogin()">Login</button>
+						<button class="login100-form-btn" type="submit">Login</button>
 					</div>
 					<div class="text-center p-t-12">
 						<span class="txt1">

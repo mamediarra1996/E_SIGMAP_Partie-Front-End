@@ -14,10 +14,9 @@ import { ActuConsulteComponent } from './actu-consulte/actu-consulte.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { LoginUserComponent } from './login-user/login-user.component';
-import { RestapiService } from './restapi.service';
 import { FormsModule } from '@angular/forms';
-import { HomeComponent } from './home/home.component';
-
+import { RegisterComponent } from './register/register.component';
+import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
 
 
 @NgModule({
@@ -34,7 +33,8 @@ import { HomeComponent } from './home/home.component';
     ActuConsulteComponent,
     ContactComponent,
     LoginUserComponent,
-    HomeComponent,
+    RegisterComponent,
+    LoginsuccessComponent,
   
   ],
   imports: [
@@ -43,7 +43,6 @@ import { HomeComponent } from './home/home.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [RestapiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

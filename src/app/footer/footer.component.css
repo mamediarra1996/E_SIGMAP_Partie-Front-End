@@ -41,10 +41,9 @@
 }
 .copyright_section {
     width: 40%;
-    float: right;
+
     background-color: #ffffff;
-    height: auto;
-    position: relative;
+    position: center;
 }
 .copyright_text {
     width: 100%;

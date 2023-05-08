@@ -4,8 +4,9 @@ import { AcceuilComponent } from './acceuil/acceuil.component';
 import { ActuConsulteComponent } from './actu-consulte/actu-consulte.component';
 import { ActualiteComponent } from './actualite/actualite.component';
 import { ContactComponent } from './contact/contact.component';
-import { HomeComponent } from './home/home.component';
 import { LoginUserComponent } from './login-user/login-user.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
 
 
 
@@ -14,10 +15,6 @@ const routes: Routes = [
   {
     path:'',
     component: AcceuilComponent
-  },
-  {
-    path:'home',
-    component: HomeComponent
   },
   {
     path:'actualite',
@@ -34,6 +31,14 @@ const routes: Routes = [
     {
       path:'login',
       component: LoginUserComponent
+    },
+    {
+      path:'register',
+      component: RegisterComponent
+    },
+    {
+      path:'loginsuccess',
+      component: LoginsuccessComponent 
     }
 ];
 
