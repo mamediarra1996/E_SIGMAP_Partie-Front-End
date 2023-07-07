@@ -6,6 +6,7 @@ export class Register {
     prenom?: String;
     email?: String;
     password?: String;
+    
 
     constructor() {}
 }

@@ -14,21 +14,21 @@ export class LoginUserComponent implements OnInit {
   register = new Register();
   msg='';
   ngOnInit(): void {
-  }
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
   loginUser(){
     this.service.loginUserFromRemote(this.register).subscribe(
       data =>{
-       console.log("response recieved");
+       console.log("réponse reçue");
        this.router.navigate(['/loginsuccess'])
     },
       error => {
-        console.error("ewception occured");
+        console.error("une erreur s'est produite");
         this.msg="Mauvaises identification, veuillez saisir une adresse e-mail et un mot de passe valides";
       }
       
     )
 
   }
-
+    
 }

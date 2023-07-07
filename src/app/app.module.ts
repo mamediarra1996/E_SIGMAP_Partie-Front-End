@@ -14,9 +14,11 @@ import { ActuConsulteComponent } from './actu-consulte/actu-consulte.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { LoginUserComponent } from './login-user/login-user.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { NewslettersuccessComponent } from './newslettersuccess/newslettersuccess.component';
 
 
 @NgModule({
@@ -35,13 +37,16 @@ import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
     LoginUserComponent,
     RegisterComponent,
     LoginsuccessComponent,
+    NewsletterComponent,
+    NewslettersuccessComponent,
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   bootstrap: [AppComponent]
 })

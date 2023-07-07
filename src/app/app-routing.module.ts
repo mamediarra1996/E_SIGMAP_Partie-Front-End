@@ -7,9 +7,8 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginUserComponent } from './login-user/login-user.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginsuccessComponent } from './loginsuccess/loginsuccess.component';
-
-
-
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { NewslettersuccessComponent } from './newslettersuccess/newslettersuccess.component';
 
 const routes: Routes = [
   {
@@ -39,6 +38,14 @@ const routes: Routes = [
     {
       path:'loginsuccess',
       component: LoginsuccessComponent 
+    },
+    {
+      path: '',
+      component: NewsletterComponent
+    },
+    {
+      path: 'newslettersuccess',
+      component: NewslettersuccessComponent
     }
 ];
 

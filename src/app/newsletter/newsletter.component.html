@@ -1,0 +1,13 @@
+<div class="container">
+<h2>Newsletter</h2>
+<p>La lettre d'information vous permet de recevoir de manière réguliere les dernières nouvelles<br> sur les marchés publics
+    au Sénégal et dans l'espace UEMOA</p>
+<form (ngSubmit)="createNewsletter()">
+  <div>
+    <input type="text" name="nom" [(ngModel)]="newsletter.nom" placeholder="Nom">
+  </div>
+  <input type="email" [(ngModel)]="newsletter.email" name="email" placeholder="Email">
+  <button type="submit">S'inscrire</button>
+</form>
+</div>
+
